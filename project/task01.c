@@ -1,4 +1,5 @@
-//task01: Change PWM duty cycle from 10% to 90% to control the brightness of the LED at PF1.
+//task01: Change the PWM duty cycle to make the servo motor to do a loop of a complete sweep
+//from 0 to 180 deg.
 
 #include <stdint.h>
 #include <stdbool.h>

@@ -30,7 +30,7 @@ int main(void)
 
     GPIOPinConfigure(GPIO_PF1_M1PWM5); //configure PF1(R) as PWM5
     GPIOPinConfigure(GPIO_PF2_M1PWM6); //configure PF2(B) as PWM6
-    GPIOPinConfigure(GPIO_PF3_M1PWM7); //configure PF2(B) as PWM7
+    GPIOPinConfigure(GPIO_PF3_M1PWM7); //configure PF2(G) as PWM7
 
     //define as PWM pins
     GPIOPinTypePWM(GPIO_PORTF_BASE, GPIO_PIN_1);
